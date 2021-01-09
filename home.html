@@ -1,0 +1,140 @@
+<html>
+<head>
+	<title>Tentang Saya | Kim Mohito</title>
+	<link rel='icon' href='favicon.ico'>
+	<link href="https://kimmohito.github.io/fontawesome-free-5.14.0-web/css/all.css" rel="stylesheet">
+	<style>
+		html, body{
+			margin: 0;
+			scroll-behavior: smooth;
+			font-family: Consolas;
+		}
+		nav{
+			background: black;
+			color: white;
+			width: 100%;
+			position: sticky;
+			top: 0;
+		}
+		nav a{
+			padding: 20px;
+			display: inline-block;
+			color: #fff;
+			text-decoration: none;
+			transition: 0.4s;
+		}
+		nav a:hover{
+			background: skyblue;
+			color: black;
+		}
+
+		main{
+			height: 100%;
+			width: 100%;
+			text-align: center;
+		}
+		.container{
+			display: inline-flex;
+			flex-wrap: nowrap;
+		}
+		.grid{
+			width: 50%;
+		}
+		.grid img{
+			max-width: 100%;
+			border-radius: 100%;
+			padding: 5px;
+			background: black;
+			transition: border-radius 0.4s;
+			cursor: pointer;
+		}
+		.grid img:hover{
+			border-radius: 10px;
+		}
+		.content{
+			margin-top: 30%;
+			padding: 20px;
+		}
+		.content h1{
+			font-size: 64px;
+			margin: 0;
+		}
+		.content a{
+			display: inline-block;
+			padding: 20px;
+			border: solid 5px black;
+			border-radius: 10px;
+			color: black;
+			font-size: 20px;
+			text-decoration: none;
+			margin: auto;
+			width: 200px;
+			transition: 0.4s;
+		}
+		.content a:hover{
+			background: black;
+			color: white;
+		}
+		.content .social{
+			margin-top: 50px;
+		}
+		.content .social a{
+			border: none;
+			width: auto;
+			padding: 10px;
+			border-radius: 100%;
+		}
+	</style>
+</head>
+<body>
+
+	<main id=home class="container">
+		<div class="grid">
+			<div class="content">
+				<h4>Hello, my name is </h4>
+				<h1>Kim Mohito</h1>
+				<h3>I design website</h3>
+				<a href="mailto:kimmohito@gmail.com">Say Hi</a>
+				<div class="social">
+					<a href="https://linkedin.com/in/kimmohito"><i class="fab fa-linkedin"></i></a>
+					<a href="https://github.com/kimmohito"><i class="fab fa-github"></i></a>
+					<a href="https://codepen.io/kimmohito"><i class="fab fa-codepen"></i></a>
+					<a href="https://twitter.com/kimmohito"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.youtube.com/channel/UCnsIaJK9zEXAqXJsexevOfA"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+		</div>		
+		<div class="grid">
+			<div class="content">
+				<img src="profile.jpg"/>
+			</div>
+		</div>
+	</main>
+
+	<nav>
+		<a href="#home">Home</a>
+		<a href="#about">About</a>
+		<a href="#services">Services</a>
+		<a href="#project">Project</a>
+		<a href="#contact">Contact</a>
+	</nav>
+
+	<main id=about>
+		<h2>About</h2>
+	</main>
+
+	<main id=services>
+		<h2>Services</h2>
+	</main>
+
+	<main id=project>
+		<h2>Project</h2>
+	</main>
+
+	<main id=contact>
+		<h2>Contact</h2>
+	</main>
+
+
+</body>
+</html>
